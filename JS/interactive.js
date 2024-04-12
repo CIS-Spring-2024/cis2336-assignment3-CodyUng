@@ -22,8 +22,9 @@ rightarrw.addEventListener("click", ()=>{
 // Validation of smoothie bowls
 function ordervali1() {
     var a = document.getElementById("i1").value;
-    if (a <= 0 || a >= 6) {
-        alert("Smoothie Bowl: Please order between 1-5 items");
+    var aa = document.getElementById("item1").value;
+    if (a <= 0 || a >= 6 || aa == 1) {
+        alert("Smoothie Bowl: Please order between 1-5 items, or specify you item.");
     }
     else {
         alert("You have ordered " + a + " " + "smoothie bowls."); ;
@@ -33,8 +34,9 @@ function ordervali1() {
 // Validation of tuna bowls
 function ordervali2() {
     var b = document.getElementById("i2").value;
-    if (b <= 0 || b >= 6) {
-        alert("Seared Tuna Bowl: Please order between 1-5 items");
+    var bb = document.getElementById("item2").value;
+    if (b <= 0 || b >= 6 || bb == 1) {
+        alert("Seared Tuna Bowl: Please order between 1-5 items, or specify you item.");
     }
     else {
         alert("You have ordered " + b + " " + "seared tuna bowls."); ;
@@ -45,8 +47,9 @@ function ordervali2() {
 
 function ordervali3() {
     var c = document.getElementById("i3").value;
-    if (c <= 0 || c >= 6) {
-        alert("Healthy Lunch Bowl: Please order between 1-5 items");
+    var cc = document.getElementById("item3").value;
+    if (c <= 0 || c >= 6 || cc == 1) {
+        alert("Healthy Lunch Bowl: Please order between 1-5 items, or specify you item.");
     }
     else {
         alert("You have ordered " + c + " " + "healthy lunch bowls."); ;
@@ -57,8 +60,9 @@ function ordervali3() {
 
 function ordervali4() {
     var d = document.getElementById("i4").value;
-    if (d <= 0 || d >= 6) {
-        alert("Cowboy Casserole: Please order between 1-5 items");
+    var dd = document.getElementById("item4").value;
+    if (d <= 0 || d >= 6 || dd == 1) {
+        alert("Cowboy Casserole: Please order between 1-5 items, or specify you item.");
     }
     else {
         alert("You have ordered " + d + " " + "cowbow casseroles."); ;
@@ -69,8 +73,9 @@ function ordervali4() {
 
 function ordervali5() {
     var e = document.getElementById("i5").value;
-    if (e <= 0 || e >= 6) {
-        alert("Fried Chicken: Please order between 1-5 items");
+    var ee = document.getElementById("item5").value;
+    if (e <= 0 || e >= 6 || ee == 1) {
+        alert("Fried Chicken: Please order between 1-5 items, or specify you item.");
     }
     else {
         alert("You have ordered " + e + " " + "fried chickens."); ;
@@ -81,8 +86,9 @@ function ordervali5() {
 
 function ordervali6() {
     var f = document.getElementById("i6").value;
-    if (f <= 0 || f >= 6) {
-        alert("Buttered Chicken: Please order between 1-5 items");
+    var ff = document.getElementById("item6").value;
+    if (f <= 0 || f >= 6 || ff == 1) {
+        alert("Buttered Chicken: Please order between 1-5 items, or specify you item.");
     }
     else {
         alert("You have ordered " + f + " " + "buttered chickens."); ;
